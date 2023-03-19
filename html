@@ -1,0 +1,9 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block content %}
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="{% static 'main/video/vid1.mp4' %}" type="video/mp4">
+    </video>
+  </div>
+{% endblock %}
